@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-gray: #959494 --gray: #EDEDED;
+    --light-blue: #ACD5F2;
+    --medium-blue: #7FA8C9;
+    --dark-blue: #527BA0;
+    --super-dark-blue: #254E77;
+}
+
+
+
+.wrapper {
+    max-width: calc(1120px - (20px + 20px));
+    padding: 0 20px 0 20px;
+}
+
+.contribution-graph {}
+
+.contribution-graph__weekdays {}
+
+.contribution-graph__months {}
+
+.contribution-graph__container {}
+
+.weekday {}
+
+.months {}
+
+.graph {}
+
+.graph-info {}
+
+.cubes {}
+
+.cube {}
